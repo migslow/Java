@@ -15,7 +15,7 @@ public class ejercicio7 {
 
 		minutos = segundos / 60;
 		horas = minutos / 60;
-		
+
 		System.out.println("Timepo en minutos: " + minutos);
 		System.out.println("Tiempo en horas: " + horas);
 

@@ -9,13 +9,13 @@ public class ejercicio3 {
 		double euros;
 		double dollars = 1.04;
 		double calculo;
-		
+
 		System.out.println("Introduce la cantidad en euros a conversar: ");
 		euros = s.nextDouble();
-		
+
 		calculo = euros * dollars;
 		System.out.println("La cantidad: " + euros + " en dollares es " + calculo);
-		
+
 	}
 
 }

@@ -12,7 +12,7 @@ public class ejercicio4 {
 
 		System.out.println("Introduce la cantidad en dolares a conversar: ");
 		dollars = s.nextDouble();
-		
+
 		calculo = dollars * euros;
 		System.out.println("La cantidad: " + dollars + " en dollares es " + calculo);
 	}
