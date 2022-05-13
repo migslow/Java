@@ -2,18 +2,20 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class ejercicio01 {
+public class ejercicio08 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		int n1;
-		System.out.println("Introduce un numero entero: ");
-		n1 = s.nextInt();
 
-		if (n1 % 2 == 0) {
-			System.out.println("es par");
-		} else {
-			System.out.println("es impar");
+		int n;
+		System.out.println("Introduce un numero entero: ");
+		n = s.nextInt();
+
+		for (int i = 1; i <= n; ++i) {
+			for (int j = 1; j <= i; ++j) {
+				System.out.print(j + "  ");
+			}
+			System.out.println();
 		}
 
 	}
