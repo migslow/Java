@@ -12,20 +12,22 @@ public class ejercicio10 {
 
 		System.out.println("Introduce un numero entero: ");
 		n = s.nextInt();
-		maximo = n;
 		minimo = n;
-		while (n < 0) {
-			suma = suma + n;
+		maximo = n;
+		while (n > 0) {
 			contador++;
+			suma = suma + n;
+
+			if (n < minimo) {
+				minimo = n;
+			}
+			if (n < maximo) {
+				maximo = n;
+				System.out.println("Introduce otro numero entero: ");
+				n = s.nextInt();
+
+			}
 		}
-		if (minimo < n) {
-			minimo = n;
-		}
-		if (maximo > n) {
-			maximo = n;
-		}
-		System.out.println("Introduce otro numero entero: ");
-		n = s.nextInt();
 
 		if (contador != 0) {
 			System.out.println("La media es: " + suma / contador);
