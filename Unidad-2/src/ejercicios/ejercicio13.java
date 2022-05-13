@@ -13,7 +13,7 @@ public class ejercicio13 {
 		System.out.println("Introduce dos numeros enteros: ");
 		numero1 = s.nextInt();
 		numero2 = s.nextInt();
-		
+
 		calculo = Math.pow(numero1, numero2);
 		System.out.println("El " + numero1 + " elevado a la potencia " + numero2 + " es: " + calculo);
 	}
