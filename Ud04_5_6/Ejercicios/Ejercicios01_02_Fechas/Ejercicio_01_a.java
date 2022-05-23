@@ -23,7 +23,6 @@ public class Ejercicio_01_a {
 			System.out.println("Sabado");
 		if (fecha.diaSemana() == 7)
 			System.out.println("Domingo");
-
 	}
 
 }

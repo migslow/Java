@@ -16,7 +16,7 @@ public class Ejercicio_05 {
 		pos = frase.indexOf(palabra);
 		while (pos != -1) {
 			veces++;
-			pos=frase.indexOf(palabra, pos+1);
+			pos = frase.indexOf(palabra, pos + 1);
 //			pos =frase.indexOf(palabra,pos+palabra.length())
 
 		}
