@@ -6,24 +6,26 @@ public class adrianMarcano2 {
 		// TODO Auto-generated method stub
 		double divisor = 1;
 		double subdivisor = 1;
-		double total=0;
+		double total = 0;
 		double subnumero = 6;
-		while(divisor < 5000) {
-			subdivisor=1;
-			total=0;
-			while(subdivisor < subnumero) 
-				{
-				if (subnumero%subdivisor==0) {total=total+subdivisor;}
-				
-				subdivisor++;
+		while (divisor < 5000) {
+			subdivisor = 1;
+			total = 0;
+			while (subdivisor < subnumero) {
+				if (subnumero % subdivisor == 0) {
+					total = total + subdivisor;
 				}
-			if(total == subnumero) {System.out.println(subnumero+" es perfecto");}
+
+				subdivisor++;
+			}
+			if (total == subnumero) {
+				System.out.println(subnumero + " es perfecto");
+			}
 			subnumero++;
 			divisor++;
-			
+
 		}
-		
-		
+
 	}
 
 }
